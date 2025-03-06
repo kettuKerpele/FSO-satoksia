@@ -1,0 +1,22 @@
+.btns{
+    margin: 10px;
+    font-size: 18px;
+}
+input, .container{
+    margin: 10px;
+}
+.notif {
+    color: rgb(4, 77, 13);
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+label {
+    font-size: 20px;
+}
+li {
+    font-size: 18px;
+}
