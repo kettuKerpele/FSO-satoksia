@@ -9,7 +9,7 @@ const db_name = 'phonebook'
 const db = mysql.createConnection({
     host:"localhost",
     user:"root",
-    password:"Aomasqldev2025!",
+    password:"",
     database: db_name
 })
 
