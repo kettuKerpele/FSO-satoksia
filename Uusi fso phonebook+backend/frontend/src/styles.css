@@ -1,0 +1,86 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.userList{
+    display: block;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.showUsers{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    border: solid 1px rgb(153, 139, 139);
+    border-radius: 33px;
+    margin-top: 10px;
+}
+
+.userRows{
+    margin-left:10px;
+}
+
+.addBtn{
+    border: none;
+    border-radius: 33px;
+    padding: 6px 9px;
+    margin-bottom: 10px;
+    background-color: rgb(174, 106, 238);
+    cursor: pointer;
+    color: rgb(255, 255, 255); 
+}
+
+.updateBtn{
+    margin-left: 10px ;
+    margin-right: 10px;
+    border: none;
+    border-radius: 33px;
+    padding: 6px 9px;
+    background-color: rgb(101, 222, 226);
+    cursor: pointer;
+    color: rgb(255, 255, 255); 
+}
+
+.deleteBtn{
+    margin-left: 40px;
+    border: none;
+    border-radius: 33px;
+    padding: 6px 9px;
+    background-color: rgb(241, 34, 96);
+    cursor: pointer;
+    color: rgb(248, 237, 237);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+input{
+    width:250px;
+    padding: 10px;
+    border: 1px solid rgb(24, 20, 20);
+    border-radius: 33px;
+}
+
+.submitBtn{
+    border: none;
+    width: 80px;
+    border-radius: 33px;
+    padding: 10px;
+    background-color: rgb(230, 54, 236);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
