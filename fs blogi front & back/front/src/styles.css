@@ -1,0 +1,162 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.blogList{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.showBlogs{
+    flex: 1;
+    display: block;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+    border: solid 1px rgb(41, 34, 34);
+    border-radius: 5px;
+    border-style: dotted;
+    margin-top: 10px;
+    background-color: rgb(213, 233, 250);
+}
+
+.blogRows{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.addBtn{
+    border: none;
+    border-radius: 5px;
+    padding: 6px 9px;
+    margin-bottom: 10px;
+    background-color: rgb(174, 106, 238);
+    cursor: pointer;
+    color: rgb(255, 255, 255); 
+}
+
+.updateBtn{
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 9px;
+    background-color: rgb(101, 222, 226);
+    cursor: pointer;
+    color: rgb(255, 255, 255); 
+}
+
+.deleteBtn{
+    margin:10px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 9px;
+    background-color: rgb(241, 34, 96);
+    cursor: pointer;
+    color: rgb(248, 237, 237);
+}
+
+.backBtn{
+    border: none;
+    width: 80px;
+    border-radius: 33px;
+    padding: 10px;
+    background-color: rgb(20, 62, 247);
+    color: white;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+.submitBtn{
+    border: none;
+    width: 80px;
+    border-radius: 33px;
+    padding: 10px;
+    background-color: rgb(230, 54, 236);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submitBtn2{
+    margin-bottom: 20px;
+    border: none;
+    width: 80px;
+    border-radius: 33px;
+    padding: 10px;
+    background-color: rgb(24, 233, 35);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.voting{
+    text-align: center;
+    width: 55px;
+    height: 25px;
+    margin:10px;
+    border: none;
+    border-radius: 33px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.submitBtn2:hover,
+.submitBtn:hover,
+.addBtn:hover,
+.backBtn:hover,
+.updateBtn:hover,
+.deleteBtn:hover,
+.voting:hover{
+    background-color: rgb(43, 220, 226);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px
+}
+
+input{
+    width:250px;
+    padding: 10px;
+    border: 1px solid rgb(24, 20, 20);
+    border-radius: 33px;
+}
+input:hover{
+    background-color: rgb(211, 211, 219);
+    border-color: rgb(0, 204, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    width:100%;
+    padding: 10px;
+    border: solid 1px black;
+    background-color: rgb(237, 223, 250);
+}
+.err {
+    color: rgb(243, 14, 14);
+    padding: 5px;
+}
+
+.nameContainer{
+  border: solid 1px black;
+  padding:5px;
+}
+.names{
+    display: block;
+}
+li{
+    margin: 0;
+    padding: 0;
+}
